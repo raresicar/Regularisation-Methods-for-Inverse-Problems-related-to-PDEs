@@ -2,7 +2,6 @@ from dolfin import UserExpression
 
 tol = 1e-14
 
-# indicator for omega, Example 2, convex direction (24)
 class ind_omega_conv(UserExpression):
     def set_values(self, i, o):
         self.i = i
@@ -15,7 +14,6 @@ class ind_omega_conv(UserExpression):
             value[0] = self.i
 
 
-# indicator for B, Example 2, convex direction (24)
 class ind_B_conv(UserExpression):
     def set_values(self, i, o):
         self.i = i
@@ -28,7 +26,6 @@ class ind_B_conv(UserExpression):
             value[0] = self.i
 
 
-# indicator for omega, Example 2, non-convex direction (25)
 class ind_omega_nonconv(UserExpression):
     def set_values(self, i, o):
         self.i = i
@@ -41,7 +38,6 @@ class ind_omega_nonconv(UserExpression):
             value[0] = self.o
 
 
-# indicator for B, Example 2, non-convex direction (25)
 class ind_B_nonconv(UserExpression):
     def set_values(self, i, o):
         self.i = i
