@@ -42,5 +42,3 @@ This repository accompanies my Bachelor’s Thesis:
 “Regularisation Methods for Inverse Problems Related to Partial Differential Equations”
 Supervisor: Lect. Dr. Mihai Nechita
 Author: Răhăian Rareș, Babeș-Bolyai University, 2025
-
-The work received the 2nd prize at the “Sesiunea de Comunicări Științifice ale Studenților – Matematică, 2025”.
