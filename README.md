@@ -24,7 +24,7 @@ Numerical Implementation: Discretisation using finite elements. Numerical experi
 
 ⚙️ Technologies & Libraries
 
-Python for numerical implementation
+Python for implementation
 
 FEniCS / dolfin for finite element discretisation
 
