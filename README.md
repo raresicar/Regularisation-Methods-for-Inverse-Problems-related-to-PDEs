@@ -12,35 +12,15 @@ Because these problems are typically ill-posed in the sense of Hadamard, they re
 
 This project implements and analyses several regularisation techniques—particularly Tikhonov-type regularisation—formulated as PDE-constrained optimisation problems and solved using finite element methods (FEM).
 
-🧩 Main Chapters
+🧩 Main Components
 
-Abstract Framework:
+Abstract Framework: Linear inverse problems in Banach/Hilbert spaces. Generalised solution and inverse. Compact operators and ill-posedness. Regularisation methods (spectral and variational).
 
-Linear inverse problems in Banach/Hilbert spaces.
+PDE-based Inverse Problems: Weak formulations of elliptic PDEs and well-posedness. From weak form to inverse problems. 
 
-Generalised solution and inverse.
+Regularised formulations for: The Cauchy problem for elliptic operators (Laplace, Helmholtz). The Unique Continuation problem.
 
-Compact operators and ill-posedness.
-
-Regularisation methods (spectral and variational).
-
-PDE-based Inverse Problems:
-
-Weak formulations of elliptic PDEs and well-posedness.
-
-From weak form to inverse problems. 
-
-Regularised formulations for:
-
-The Cauchy problem for elliptic operators (Laplace, Helmholtz).
-
-The Unique Continuation problem.
-
-Numerical Implementation:
-
-Discretisation using finite elements.
-
-Numerical experiments demonstrating stability and convergence.
+Numerical Implementation: Discretisation using finite elements. Numerical experiments demonstrating stability and convergence.
 
 ⚙️ Technologies & Libraries
 
